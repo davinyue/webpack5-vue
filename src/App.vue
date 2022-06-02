@@ -1,11 +1,16 @@
 <template>
-  <div class="div_test">
-    我是Vue项目啊 {{ username }}
+  <div>
+    <div class="div_test">
+      我是Vue项目啊 {{ username }}
+    </div>
+    <Button type="primary">Primary Button</Button>
   </div>
 </template>
 <script lang='js'>
 import { ref } from 'vue';
+import { Button } from 'ant-design-vue';
 export default {
+  components: { Button },
   setup() {
     let username = ref('helloworld');
     return {
@@ -15,7 +20,7 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.div_test{
+.div_test {
   color: red;
 }
 </style>
