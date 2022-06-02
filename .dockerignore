@@ -1,0 +1,8 @@
+# 目的：提升docker编译速度
+# 做法：排除所有，包含需要的
+# Ignore everything
+**
+# Allow files and directories
+!dist/*
+!Dockerfile
+!docker/*

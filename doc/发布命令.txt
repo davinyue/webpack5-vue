@@ -1,0 +1,8 @@
+开发
+curl -X GET 'http://limin:11d35cc52ea6614ad91e533b33f12de3a0@172.17.1.15:9081/view/mid-platform/job/mid-platform-auth-service-fe/buildWithParameters?token=77d1c9a4-36cb-11ea-ae33-0221860e9b7e&build_env=ldev&branch=ldev'
+
+测试
+curl -X GET 'http://limin:11d35cc52ea6614ad91e533b33f12de3a0@172.17.1.15:9081/view/mid-platform/job/mid-platform-auth-service-fe/buildWithParameters?token=77d1c9a4-36cb-11ea-ae33-0221860e9b7e&build_env=test&branch=test'
+
+正式
+curl -X GET 'http://limin:11d35cc52ea6614ad91e533b33f12de3a0@172.17.1.15:9081/view/mid-platform/job/mid-platform-auth-service-fe/buildWithParameters?token=77d1c9a4-36cb-11ea-ae33-0221860e9b7e&build_env=prod&branch=master'
